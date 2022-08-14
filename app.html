@@ -7,6 +7,7 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
+        <audio id="click"><source src="sounds/click.mp3"></audio>
         <script src="script.js"></script>
 
 
@@ -22,9 +23,16 @@
 
 
         <div class="canvas" id="BackgroundX">
-            <button id="play_buttonX">Play</button>
-            <button id="SettingsX">Settings</button>
-            <button id="HelpX">Help</button>
+            <button id="play_buttonX" onclick="play()">Play</button>
+            <button id="SettingsX" onclick="settings()">Settings</button>
+            <button id="HelpX" onclick="help()">Help</button>
+            
+<pre id="InHelpX">
+Move Right          D
+Move Left            A
+Jump                    Space(or W)
+Press Keys           RMB (or Enter)
+</pre>
         </div>
 
 

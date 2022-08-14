@@ -87,16 +87,27 @@
     width: 0px;
     border: 0px;
     font-size: 0px;
+    background-image: none;
 }
 #SettingsX {
     height: 0px;
     width: 0px;
     border: 0px;
     font-size: 0px;
+    background-image: none;
 }
 #HelpX {
     height: 0px;
     width: 0px;
     border: 0px;
     font-size: 0px;
+    background-image: none;
+}
+#InHelpX {
+    font-size: 0px;
+}
+#InHelp {
+    font-size: 30px;
+    color: Red;
+    font-family: Algerian;
 }
