@@ -24,3 +24,79 @@
     font-size: 0px;
     border: 0px;
 }
+#Background {
+     height: 85vh;
+     width: 170vh;
+     background-color: aqua;
+     border: 5px black solid;
+     margin: auto;
+     position: relative;
+}
+#BackgroundX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    font-size: 0px;
+}
+#play_button {
+    height: 7vh;
+    width: 14vw;
+    background-color: gray;
+    font-size: 40px;
+    font-style: italic;
+    font-family: Algerian;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#Settings {
+    height: 7vh;
+    width: 14vw;
+    background-color: gray;
+    font-size: 40px;
+    font-style: italic;
+    font-family: Algerian;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+}
+#Help {
+    height: 7vh;
+    width: 14vw;
+    background-color: gray;
+    font-size: 40px;
+    font-style: italic;
+    font-family: Algerian;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    top: 55%;
+    left: 7.65%;
+}
+#play_buttonX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    font-size: 0px;
+}
+#SettingsX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    font-size: 0px;
+}
+#HelpX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    font-size: 0px;
+}
