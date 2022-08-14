@@ -3,6 +3,6 @@
 This is a Game called RockClimbing
 
 
-##Credit = 
+## Credit = 
 Game Name from :- Faheem
 Game Creater :- Muhammed Safeer
