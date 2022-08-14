@@ -1,0 +1,25 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#name_input {
+    height: 40px;
+    width: 200px;
+}
+#name_enter {
+    height: 46px;
+    width: 80px;
+    position: fixed;
+    left: 201px;
+    font-size: large;
+}
+#name_inputX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+}
+#name_enterX {
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+    border: 0px;
+}
