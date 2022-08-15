@@ -1,6 +1,9 @@
+#bgON  {background-image: url(https://img.freepik.com/free-psd/gamer-background-with-accessories_1419-2365.jpg?w=1060&t=st=1660557820~exp=1660558420~hmac=a2955f5e093f85cd49c63735dce1795dbe819c1438b179335ae8c8ccfb88a69f);}
+#bgOFF {background-image: none;}
+
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: olive;
+    color: rgb(179, 152, 0);
 }
 #name_input {
     height: 40px;
@@ -111,3 +114,27 @@
     color: Red;
     font-family: Algerian;
 }
+
+
+/*Inside Help*/
+#SettingsINX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    font-size: 0px;
+}
+#SettingsIN {
+    font-size: 20px;
+    font-family: Algerian;
+    color: white;
+}
+#BackgroundDX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    font-size: 0px;
+}
+#ON_button   {background-color: lime;}
+#ON_buttonX  {height: 0px; width: 0px; font-size: 0px; border: 0px;}
+#OFF_button  {background-color: red;}
+#OFF_buttonX {height: 0px; width: 0px; font-size: 0px; border: 0px;}
