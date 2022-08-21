@@ -1,20 +1,19 @@
-#bgON  {background-image: url(https://img.freepik.com/free-psd/gamer-background-with-accessories_1419-2365.jpg?w=1060&t=st=1660557820~exp=1660558420~hmac=a2955f5e093f85cd49c63735dce1795dbe819c1438b179335ae8c8ccfb88a69f);}
-#bgOFF {background-image: none;}
-
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(179, 152, 0);
 }
+/*First Page*/
 #name_input {
-    height: 40px;
-    width: 200px;
+    height: 120px;
+    width: 240px;
+    font-size: 25px;
 }
 #name_enter {
-    height: 46px;
-    width: 80px;
-    position: fixed;
-    left: 201px;
-    font-size: large;
+    height: 126px;
+    width: 240px;
+    position: absolute;
+    left: 254px;
+    font-size: 50px;
 }
 #name_inputX {
     height: 0px;
@@ -27,13 +26,16 @@
     font-size: 0px;
     border: 0px;
 }
+/*Secend page*/
 #Background {
-     height: 85vh;
-     width: 170vh;
+     height: 1080px;
+     width: 1920px;
      background-color: aqua;
      border: 5px black solid;
      margin: auto;
      position: relative;
+     max-width: 100%;
+     max-height: 100%;
 }
 #BackgroundX {
     height: 0px;
@@ -51,7 +53,7 @@
     color: white;
     border-radius: 25px;
     text-align: center;
-    position: relative;
+    position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -66,9 +68,9 @@
     color: white;
     border-radius: 25px;
     text-align: center;
-    position: relative;
+    position: absolute;
     top: 50%;
-    left: 33%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 #Help {
@@ -81,9 +83,10 @@
     color: white;
     border-radius: 25px;
     text-align: center;
-    position: relative;
-    top: 55%;
-    left: 7.65%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #play_buttonX {
     height: 0px;
@@ -106,6 +109,7 @@
     font-size: 0px;
     background-image: none;
 }
+/*InHelp (Third page)*/
 #InHelpX {
     font-size: 0px;
 }
@@ -116,7 +120,7 @@
 }
 
 
-/*Inside Help*/
+/*Inside Settings (Third page)*/
 #SettingsINX {
     height: 0px;
     width: 0px;
@@ -138,3 +142,9 @@
 #ON_buttonX  {height: 0px; width: 0px; font-size: 0px; border: 0px;}
 #OFF_button  {background-color: red;}
 #OFF_buttonX {height: 0px; width: 0px; font-size: 0px; border: 0px;}
+
+/*In PLAY*/
+#game_background {
+    height: 0px;
+    width: 0px;
+}

@@ -7,8 +7,8 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body id="bgON">
-        <audio id="click"><source src="sounds/click.mp3"></audio>
         <script src="script.js"></script>
+        <audio id="click"><source src="sounds/click.mp3"></audio>
 
 
         <input type="text" placeholder="Enter Your Name" id="name_input">
@@ -33,13 +33,8 @@ Move Left               A
 Jump                       Space(or W)
 Press Keys              RMB (or Enter)
 Back                       Esc
-</pre>
-<pre>
-____________________________________________________________
-Note: Your Browser zoom has to be 100% to get a better view               |
-Recemented To use Google Chrome                                                          |
-                                                                                                                       |
-____________________________________________________________
+
+Adjust your browser zoom with winkey + and + or -
 </pre>
             <div id="SettingsINX">
                 <div id="BackgroundDX">
@@ -48,8 +43,15 @@ ____________________________________________________________
                     <button id="OFF_buttonX" onclick="BackgroundOFF()">OFF</button>
                 </div>
             </div>
+
+
+
+            <div id="GbgX">
+                <img id="game_background" src="img/bg.png">
+            </div>
         </div>
 
-
+        <button onclick="random()">console</button>
+        <button onclick="randomX()">consolw off</button>
     </body>
 </html>
