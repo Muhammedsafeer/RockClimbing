@@ -125,33 +125,13 @@ document.addEventListener('keydown', function(event){
 
 
 //Random Chances Of spawning Rocks
-const play = 0;
-function random() {
-    play + 1;
-}
-function randomX() {
-
-}
-const chance1 = [1, 2, 3, 1, 2, 3];
-const chance2 = [0];
-setInterval(function() {
-    if (play = 1) {
-        for (let i = chance1.length -1; i > 0; i--) {
-            let j = Math.floor(Math.random() * i)
-            let k = chance1[i]
-            chance1[i] = chance1[j]
-            chance1[j] = k
-          }
-          const chance2 = chance1.slice(-0,-5)
-          if (chance2 < 3) {
-            if (chance2 < 2) {
-                console.log("1")
-            }else {
-                console.log("2")
-            }
-          }else {
-            console.log("3")
-          }
+const random = ["1", "2", "3", "1", "2", "3"];
+setInterval(function () {
+    for (let i = random.length -1; i > 0; i--) {
+        let j = Math.floor(Math.random() * i)
+        let k = random[i]
+        random[i] = random[j]
+        random[j] = k
       }
-}
-,1000);
+      const random1 = random.slice(-0, -5)
+},1000)
