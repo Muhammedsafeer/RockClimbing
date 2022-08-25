@@ -2,29 +2,20 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(179, 152, 0);
 }
-/*First Page*/
-#name_input {
-    height: 120px;
-    width: 240px;
-    font-size: 25px;
+/*ON*/
+#bgON {
+    background-image: url(https://img.freepik.com/free-psd/gamer-background-with-accessories_1419-2365.jpg?w=1060&t=st=1660557820~exp=1660558420~hmac=a2955f5e093f85cd49c63735dce1795dbe819c1438b179335ae8c8ccfb88a69f);
 }
+#bgOFF {
+    background-image: none;
+}
+/*First Page*/
 #name_enter {
     height: 126px;
     width: 240px;
     position: absolute;
     left: 254px;
     font-size: 50px;
-}
-#name_inputX {
-    height: 0px;
-    width: 0px;
-    border: 0px;
-}
-#name_enterX {
-    height: 0px;
-    width: 0px;
-    font-size: 0px;
-    border: 0px;
 }
 /*Secend page*/
 #Background {
@@ -36,12 +27,6 @@
      position: relative;
      max-width: 100%;
      max-height: 100%;
-}
-#BackgroundX {
-    height: 0px;
-    width: 0px;
-    border: 0px;
-    font-size: 0px;
 }
 #play_button {
     height: 7vh;
@@ -88,31 +73,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#play_buttonX {
-    height: 0px;
-    width: 0px;
-    border: 0px;
-    font-size: 0px;
-    background-image: none;
-}
-#SettingsX {
-    height: 0px;
-    width: 0px;
-    border: 0px;
-    font-size: 0px;
-    background-image: none;
-}
-#HelpX {
-    height: 0px;
-    width: 0px;
-    border: 0px;
-    font-size: 0px;
-    background-image: none;
-}
 /*InHelp (Third page)*/
-#InHelpX {
-    font-size: 0px;
-}
 #InHelp {
     font-size: 30px;
     color: Red;
@@ -121,30 +82,127 @@
 
 
 /*Inside Settings (Third page)*/
-#SettingsINX {
-    height: 0px;
-    width: 0px;
-    border: 0px;
-    font-size: 0px;
-}
 #SettingsIN {
     font-size: 20px;
     font-family: Algerian;
     color: white;
 }
-#BackgroundDX {
+#ON_button   {background-color: lime;}
+#OFF_button  {background-color: red;}
+
+/*In PLAY*/
+#Gbg {
+    height: 10%;
+    width: 80%;
+    border: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*OFF*/
+
+
+#name_enterX {
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+    border: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#BackgroundX {
     height: 0px;
     width: 0px;
     border: 0px;
     font-size: 0px;
 }
-#ON_button   {background-color: lime;}
-#ON_buttonX  {height: 0px; width: 0px; font-size: 0px; border: 0px;}
-#OFF_button  {background-color: red;}
-#OFF_buttonX {height: 0px; width: 0px; font-size: 0px; border: 0px;}
 
-/*In PLAY*/
-#game_background {
+#play_buttonX {
     height: 0px;
     width: 0px;
+    border: 0px;
+    font-size: 0px;
+    background-image: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+#SettingsX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    font-size: 0px;
+    background-image: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+#HelpX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    font-size: 0px;
+    background-image: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#InHelpX {
+    font-size: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#SettingsINX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    font-size: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#BackgroundDX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    font-size: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#ON_buttonX  {height: 0px; width: 0px; font-size: 0px; border: 0px;}
+
+#OFF_buttonX {height: 0px; width: 0px; font-size: 0px; border: 0px;}
+
+#playerX {
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+    border: 0px;
+    background: none;
+}
+#rockX {
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+    border: 0px;
+    background: none;
+}
+#lineX {
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+    border: 0px;
+    background: none;
 }
