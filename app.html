@@ -6,7 +6,7 @@
         </title>
         <link href="style.css" rel="stylesheet">
     </head>
-    <body id="bgON">
+    <body id="bgOFF">
         <script src="script.js"></script>
         <audio id="click"><source src="sounds/click.mp3"></audio>
 
@@ -18,7 +18,8 @@
 
         <p id="NameIN">Your Name Has to be under 18 and Above 3 Characters</p>
         <p id="correct_or_not"></p><br>
-        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
 
 
 
@@ -43,15 +44,12 @@ Adjust your browser zoom with winkey + and + or -
                     <button id="OFF_buttonX" onclick="BackgroundOFF()">OFF</button>
                 </div>
             </div>
-
-
-
             <div id="GbgX">
-                <img id="game_background" src="img/bg.png">
+                <div id="player"></div>
+                <div id="rock"></div>
+                <div id="line">
             </div>
         </div>
-
-        <button onclick="random()">console</button>
-        <button onclick="randomX()">consolw off</button>
+        
     </body>
 </html>
