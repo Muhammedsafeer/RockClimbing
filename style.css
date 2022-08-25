@@ -10,12 +10,31 @@
     background-image: none;
 }
 /*First Page*/
+#name_input {
+    height: 120px;
+    width: 240px;
+    font-size: 25px;
+}
 #name_enter {
     height: 126px;
     width: 240px;
     position: absolute;
     left: 254px;
     font-size: 50px;
+}
+#name_inputX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+}
+#name_enterX {
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+    border: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 /*Secend page*/
 #Background {
@@ -27,6 +46,12 @@
      position: relative;
      max-width: 100%;
      max-height: 100%;
+}
+#BackgroundX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    font-size: 0px;
 }
 #play_button {
     height: 7vh;
@@ -73,56 +98,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/*InHelp (Third page)*/
-#InHelp {
-    font-size: 30px;
-    color: Red;
-    font-family: Algerian;
-}
-
-
-/*Inside Settings (Third page)*/
-#SettingsIN {
-    font-size: 20px;
-    font-family: Algerian;
-    color: white;
-}
-#ON_button   {background-color: lime;}
-#OFF_button  {background-color: red;}
-
-/*In PLAY*/
-#Gbg {
-    height: 10%;
-    width: 80%;
-    border: 1px;
-    background-color: gray;
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-/*OFF*/
-
-
-#name_enterX {
-    height: 0px;
-    width: 0px;
-    font-size: 0px;
-    border: 0px;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-}
-
-#BackgroundX {
-    height: 0px;
-    width: 0px;
-    border: 0px;
-    font-size: 0px;
-}
-
 #play_buttonX {
     height: 0px;
     width: 0px;
@@ -153,14 +128,21 @@
     top: 0px;
     left: 0px;
 }
-
+/*InHelp (Third page)*/
 #InHelpX {
     font-size: 0px;
     position: fixed;
     top: 0px;
     left: 0px;
 }
+#InHelp {
+    font-size: 30px;
+    color: Red;
+    font-family: Algerian;
+}
 
+
+/*Inside Settings (Third page)*/
 #SettingsINX {
     height: 0px;
     width: 0px;
@@ -170,7 +152,11 @@
     top: 0px;
     left: 0px;
 }
-
+#SettingsIN {
+    font-size: 20px;
+    font-family: Algerian;
+    color: white;
+}
 #BackgroundDX {
     height: 0px;
     width: 0px;
@@ -180,11 +166,22 @@
     top: 0px;
     left: 0px;
 }
-
+#ON_button   {background-color: lime;}
 #ON_buttonX  {height: 0px; width: 0px; font-size: 0px; border: 0px;}
-
+#OFF_button  {background-color: red;}
 #OFF_buttonX {height: 0px; width: 0px; font-size: 0px; border: 0px;}
 
+/*In PLAY*/
+#Gbg {
+    height: 10%;
+    width: 80%;
+    border: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 #playerX {
     height: 0px;
     width: 0px;
@@ -206,3 +203,4 @@
     border: 0px;
     background: none;
 }
+/*OFF*/
