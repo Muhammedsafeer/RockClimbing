@@ -1,3 +1,17 @@
+/*For Turning off any elemnt
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    background: none;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size: 0px;
+*/
+
+
+
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(179, 152, 0);
@@ -203,4 +217,78 @@
     border: 0px;
     background: none;
 }
-/*OFF*/
+#back2 {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #555;
+	border-bottom: 25px solid transparent;
+    background:  none;
+}
+#back3 {
+    height: 50px;
+    width: 50px;
+    background: none;
+    border: 2px;
+}
+#back2X {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    background: none;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size: 0px;
+}
+#back3X {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    background: none;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size: 0px;
+}
+#name {
+    height: 50px;
+    width: 400px;
+    border: 2px black solid;
+    margin: auto;
+    background-color: yellow;
+    font-size: large;
+    text-align: center;
+    color: black;
+}
+#score {
+    height: 50px;
+    width: 400px;
+    border: 2px black solid;
+    margin: auto;
+    background-color: green;
+}
+#nameX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    background: none;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size: 0px;
+}
+#scoreX {
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    background: none;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size: 0px;
+}

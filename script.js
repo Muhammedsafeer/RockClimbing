@@ -13,14 +13,17 @@ function Name_correct() {
             document.getElementById("SettingsX").id="Settings";
             document.getElementById("HelpX").id="Help";
             let click = document.getElementById("click");
-            click.play()
+            click.play();
         }
     }
     if (length > 18) {
         document.getElementById("correct_or_not").innerHTML =  "Your Name Has to be Under 18 Characters";
     }
     if (length < 3) {
-        document.getElementById("correct_or_not").innerHTML = "Your Name Has to be Above 3 Characters"
+        document.getElementById("correct_or_not").innerHTML = "Your Name Has to be Above 3 Characters";
+    }
+    if (length = 3) {
+        document.getElementById("correct_or_not").innerHTML = "Your Name Has to be Above 3 Characters";
     }
 }
 
@@ -29,6 +32,9 @@ function play() {
     document.getElementById("Settings").id="SettingsX";
     document.getElementById("Help").id="HelpX";
     document.getElementById("GbgX").id="Gbg";
+    document.getElementById("back2X").id="back2";
+    document.getElementById("nameX").id="name";
+    document.getElementById("scoreX").id="score";
 
     let click = document.getElementById("click");
     click.play()
@@ -84,7 +90,7 @@ document.addEventListener("keypress", function(event) {
                 document.getElementById("SettingsX").id="Settings";
                 document.getElementById("HelpX").id="Help";
                 let click = document.getElementById("click");
-                click.play()
+                click.play();
             }
         }
         if (length > 18) {
@@ -135,3 +141,16 @@ setInterval(function () {
       }
       const random1 = random.slice(-0, -5)
 },1000)
+//
+
+function Back1() {
+    document.getElementById("play_buttonX").id="play_button";
+    document.getElementById("SettingsX").id="Settings";
+    document.getElementById("HelpX").id="Help";
+    document.getElementById("Gbg").id="GbgX";
+    document.getElementById("back2").id="back2X";
+}
+setInterval(function () {
+    const player = document.getElementById("name_input").value;
+    return document.getElementById("player_name").innerHTML = "Name: " + player;
+},1)
