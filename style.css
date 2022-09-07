@@ -11,11 +11,24 @@
 */
 
 
-
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(179, 152, 0);
 }
+
+#Head {
+    height: 20vh;
+    background-color: blue;
+    position: relative;
+}
+    #Head_p1 {
+        font-size: 70px;
+        margin: auto;
+        color: white;
+        text-align: center;
+    }
+
+
 /*ON*/
 #bgON {
     background-image: url(https://img.freepik.com/free-psd/gamer-background-with-accessories_1419-2365.jpg?w=1060&t=st=1660557820~exp=1660558420~hmac=a2955f5e093f85cd49c63735dce1795dbe819c1438b179335ae8c8ccfb88a69f);
@@ -188,9 +201,8 @@
 /*In PLAY*/
 #Gbg {
     height: 10%;
-    width: 80%;
     border: 1px;
-    background-color: gray;
+    background-color: blue;
     position: absolute;
     top: 50px;
     left: 50%;

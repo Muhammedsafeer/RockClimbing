@@ -26,7 +26,7 @@ function Name_correct() {
         document.getElementById("correct_or_not").innerHTML = "Your Name Has to be Above 3 Characters";
     }
 }
-
+//In PLAY
 function play() {
     document.getElementById("play_button").id="play_buttonX";
     document.getElementById("Settings").id="SettingsX";
@@ -49,6 +49,7 @@ function settings() {
     document.getElementById("BackgroundDX").id="BackgroundD";
     document.getElementById("ON_buttonX").id="ON_button";
     document.getElementById("OFF_buttonX").id="OFF_button";
+    document.getElementById("back2X").id="back2";
 
     let click = document.getElementById("click");
     click.play()
@@ -103,32 +104,6 @@ document.addEventListener("keypress", function(event) {
   }
 );
 
-//Escape
-document.addEventListener('keydown', function(event){
-	if(event.key === "Escape"){
-		document.getElementById("play_buttonX").id="play_button";
-        document.getElementById("SettingsX").id="Settings";
-        document.getElementById("HelpX").id="Help";
-        document.getElementById("InHelp").id="InHelpX";
-
-        let click = document.getElementById("click");
-        click.play()
-	    }
-    }
-);
-document.addEventListener('keydown', function(event){
-	if(event.key === "Escape"){
-        document.getElementById("BackgroundD").id="BackgroundDX";
-        document.getElementById("ON_button").id="ON_buttonX";
-        document.getElementById("OFF_button").id="OFF_buttonX";
-
-        let click = document.getElementById("click");
-        click.play()
-	    }
-    }
-);
-
-
 
 //Random Chances Of spawning Rocks
 const random = ["1", "2", "3", "1", "2", "3"];
@@ -139,6 +114,7 @@ setInterval(function () {
         random[i] = random[j]
         random[j] = k
       }
+      console.log(random)
       const random1 = random.slice(-0, -5)
 },1000)
 //
@@ -149,6 +125,8 @@ function Back1() {
     document.getElementById("HelpX").id="Help";
     document.getElementById("Gbg").id="GbgX";
     document.getElementById("back2").id="back2X";
+    document.getElementById("name").id="nameX"; 
+    document.getElementById("score").id="scoreX";
 }
 setInterval(function () {
     const player = document.getElementById("name_input").value;
