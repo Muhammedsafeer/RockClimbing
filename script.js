@@ -12,6 +12,9 @@ function Name_correct() {
             document.getElementById("play_buttonX").id="play_button";
             document.getElementById("SettingsX").id="Settings";
             document.getElementById("HelpX").id="Help";
+            document.getElementById("Head").id = "HeadX";
+            document.getElementById("Head_p1").id="Head_p1X";
+
             let click = document.getElementById("click");
             click.play();
         }
@@ -35,6 +38,10 @@ function play() {
     document.getElementById("back2X").id="back2";
     document.getElementById("nameX").id="name";
     document.getElementById("scoreX").id="score";
+
+    document.getElementById("LineX").id="Line";
+    document.getElementById("Line1X").id="Line1"
+    document.getElementById("Line2X").id="Line2";
 
     let click = document.getElementById("click");
     click.play()
@@ -90,10 +97,13 @@ document.addEventListener("keypress", function(event) {
                 document.getElementById("play_buttonX").id="play_button";
                 document.getElementById("SettingsX").id="Settings";
                 document.getElementById("HelpX").id="Help";
+                document.getElementById("Head").id = "HeadX";
+                document.getElementById("Head_p1").id="Head_p1X";
+
                 let click = document.getElementById("click");
                 click.play();
             }
-        }
+        }   
         if (length > 18) {
             document.getElementById("correct_or_not").innerHTML =  "Your Name Has to be Under 18 Characters";
         }

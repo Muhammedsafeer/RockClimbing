@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        
+        <!--Css and JavaScript Link-->
         <link href="style.css" rel="stylesheet">
         <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <script src="script.js"></script>
@@ -32,7 +32,7 @@
 
 
 
-        <div class="container-fluid" id="BackgroundX">
+        <div class="container" id="BackgroundX">
             <button id="play_buttonX" onclick="play()">Play</button>
             <button id="SettingsX" onclick="settings()">Settings</button>
             <button id="HelpX" onclick="help()">Help</button>
@@ -57,9 +57,7 @@ Adjust your browser zoom with winkey + and + or -
             <button id="back2X" onclick="Back1()"></button>
             <button id="back3X" onclick="Back2()"></button>
             <div class="container-fluid" id="GbgX">
-                <div id="player"></div>
-                <div id="rock"></div>
-                <div id="line"></div>
+                
 
                 <div id="nameX">
                     <p id="player_name"></p>
@@ -67,6 +65,15 @@ Adjust your browser zoom with winkey + and + or -
                 <div id="scoreX">
                     <p id="player_score"></p>
                 </div>
+        </div>
+
+        <div id="playerX"></div>
+        <div id="rockX"></div>
+        <div id="lineX">
+            <div id="Line1X"></div>
+            <div id="Line2X"></div>
+        </div>
+
         </div>
     </body>
 </html>
